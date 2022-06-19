@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Hélène Normant</h1>
-        <h5 className="text-light">En Formation développement Web</h5>
+        <h5 className="text-light">En Formation Développement informatique</h5>
         <CTA />
         <HeaderSocials/>
 
@@ -18,7 +18,7 @@ export const Header = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contact" className='scroll_down'>Scroll ⇨</a>
       </div>
 
     </header>

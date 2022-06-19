@@ -13,11 +13,9 @@
 /* Root variables = all project */
 
 :root {
-    --color-bg: #f7f6ec;
-    --color-bg-variant: #a5a39f;
+    --color-bg: #f8f8f6;
     --color-primary: #322f2f;
-    --color-primary-variant: #605e5e;
-    --color-white: #000000;
+    --color-black: #000000;
     --color-light: #302e2e;
 
     --transition: all 400ms ease;
@@ -40,7 +38,7 @@ html {
 body {
     font-family:'Montserrat', sans-serif;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-black);
     line-height: 1.7;
 }
 
@@ -82,7 +80,7 @@ section>h2 {
 
 a {
     color: var(--color-primary);
-    transition: var(--transition);
+   transition: var(--transition);
 }
 
 a:hover {
@@ -94,16 +92,16 @@ a:hover {
     display: inline-block;
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     transition: var(--transition);
 }
 
  .btn:hover {
-     background: var(--color-white);
+     background: var(--color-black);
      color: var(--color-bg);
      border-color: transparent;
+     box-shadow: -12px -12px 2px 1px  #a7bed3 ;
 
  }
 
@@ -114,8 +112,10 @@ a:hover {
 
  .btn-primary:hover {
     background: var(--color-bg);
-    color: var(--color-white);
-    border-color: var(--color-white); 
+    color: var(--color-black);
+    border-color: var(--color-black); 
+    box-shadow: 12px -12px 2px 1px  #a7bed3 ;
+
  }
 
  img {

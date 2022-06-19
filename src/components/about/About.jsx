@@ -26,7 +26,7 @@ export const About = () => {
               <medium>9 mois de formation - 1 an d'alternance</medium>
             </article>
 
-                <article className='about__card'>
+                <article className='about__card_bis'>
                   <BsSearch className='about__icon' />
                   <h3>Cherche alternance octobre 2022</h3>
                   <medium>4 jours en entreprise - 1 jour à l'école</medium>
@@ -41,7 +41,7 @@ export const About = () => {
                  dans différents langages et nous apprenons également à appliquer les méthodes agiles. 
                  </p>
 
-                 <a href="#contact" className='btn btn-primary'>Restons en contact</a>
+                 <a href="#contact" className='btn btn-primary'>Contactez moi</a>
             </div>
           </div>
         </section>
