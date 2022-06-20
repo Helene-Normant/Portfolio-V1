@@ -69,23 +69,22 @@ header {
 /* MEDIA QUERIES (Medium) */
 
 @media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
+
 header {
-    height: 68vh;
+    height: 100vh;
     }
 }
 
 /* MEDIA QUERIES (Small) */
 
 @media screen and (max-width: 600px) {
-    .container {
-        height: 100vh;
+ 
+    header {
+        height: 90vh;
     }
     .header_socials, .scroll_down{
         display: none;
     }
-   
+
 }
 

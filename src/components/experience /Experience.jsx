@@ -87,7 +87,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <div><h4>Organisée</h4></div>
+              <div><h4>Organisation</h4></div>
             </article>
           </div>
         </div>

@@ -12,6 +12,7 @@ form {
     gap: 2rem;
 }
 
+
 input,
 textarea {
     width: 100%;
@@ -26,10 +27,13 @@ textarea {
     color: var(--color-primary);
 }
 
-input:hover,
 textarea:hover {
-    background:#eaf1f8;
+    border: 1px solid #a7bed3;
+}
 
+input:hover {
+    border: 1px solid  #d6eadf;
+   
 }
 
 
