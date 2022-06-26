@@ -24,6 +24,7 @@ textarea {
     border: 1px solid var(--color-primary);
     resize: none;
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     color: var(--color-primary);
 }
 

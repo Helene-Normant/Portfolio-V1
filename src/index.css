@@ -101,7 +101,7 @@ a:hover {
      background: var(--color-black);
      color: var(--color-bg);
      border-color: transparent;
-     box-shadow: -12px -12px 2px 1px  #a7bed3 ;
+     box-shadow: -12px -12px    #a7bed3 ;
 
  }
 
@@ -114,7 +114,7 @@ a:hover {
     background: var(--color-bg);
     color: var(--color-black);
     border-color: var(--color-black); 
-    box-shadow: 12px -12px 2px 1px  #a7bed3 ;
+    box-shadow: 12px -12px  #a7bed3 ;
 
  }
 

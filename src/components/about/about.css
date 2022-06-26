@@ -33,7 +33,7 @@
 .about__card {
     background: var(--color-bg);
     border: 1px solid var(--color-primary);
-    box-shadow: -12px -12px 2px 1px #a7bed3 ;
+    box-shadow: -12px -12px #a7bed3 ;
     padding: 2rem;
     text-align: center;
     transition: var(--transition)
@@ -42,7 +42,7 @@
 .about__card_bis {
     background: var(--color-bg);
     border: 1px solid var(--color-primary);
-    box-shadow: 12px 12px 1px #a7bed3 ;
+    box-shadow: 12px 12px #a7bed3 ;
     padding: 2rem;
     text-align: center;
     transition: var(--transition)
@@ -51,14 +51,14 @@
 
 .about__card:hover {
 background-color: var(--color-bg);
-box-shadow: 12px 12px 1px  #d6eadf;
+box-shadow: 12px 12px  #d6eadf;
 border-color: var(--color-primary);
 cursor: default;
 }
 
 .about__card_bis:hover {
     background-color: var(--color-bg);
-    box-shadow: -12px -12px 2px 1px  #d6eadf;
+    box-shadow: -12px -12px  #d6eadf;
     border-color: var(--color-primary);
     cursor: default;
     }
